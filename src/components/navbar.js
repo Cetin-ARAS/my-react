@@ -2,6 +2,7 @@
 
 import React from 'react'
 
+
 const Navbar=()=> {
   return (
     <div className='navbar'>
@@ -12,6 +13,12 @@ const Navbar=()=> {
       
     </div>
   )
+}
+
+export const Alt_Navbar=()=>{
+    return(
+        <div className="alt_navbar"></div>
+    )
 }
 
 

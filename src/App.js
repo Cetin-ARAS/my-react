@@ -1,12 +1,15 @@
+import React from 'react'
 import './App.css';
-import Navbar from './components/navbar'
+import Navbar, {Alt_Navbar} from "./components/navbar";
+import Gövde from "./components/body"
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
-
+      <Navbar/>
+      <Alt_Navbar/>
+      <Gövde/>
       
     </div>
   );
