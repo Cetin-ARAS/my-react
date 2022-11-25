@@ -37,4 +37,17 @@
   }
 }
 
-.navbar
+.navbar{
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #ddd;
+  color: black;
+  margin-top: 0px auto;
+  letter-spacing: 1px;
+}
+.navbar a{
+  color: black;
+  text-decoration:none;
+  margin-right: 20px;
+}
