@@ -1,16 +1,20 @@
-import React,{useState} from 'react'
 import './App.css';
+
+import Header from './components/header'
+import Buttons from './components/buttons'
+import Footer from './components/footer'
 
 
 function App() {
 
-  const [deger,setDeger]=useState(0);
 
   return (
     <div className="App">
-    <p><button onClick={()=>{setDeger(deger+1)}}>Arttır</button></p>
-    <p>{deger}</p>
-    <p><button>Azalt</button></p>
+
+
+      <Buttons/>
+      <Footer/>
+      <Header/>
       
     </div>
   );
