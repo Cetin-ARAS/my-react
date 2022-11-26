@@ -1,15 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './App.css';
-import Navbar, {Alt_Navbar} from "./components/navbar";
-import Gövde from "./components/body"
+
 
 function App() {
 
+  const [deger,setDeger]=useState(0);
+
   return (
     <div className="App">
-      <Navbar/>
-      <Alt_Navbar/>
-      <Gövde/>
+    <p><button onClick={()=>{setDeger(deger+1)}}>Arttır</button></p>
+    <p>{deger}</p>
+    <p><button>Azalt</button></p>
       
     </div>
   );
