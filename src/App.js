@@ -1,15 +1,16 @@
 import React from 'react'
 import './App.css';
-import Navbar, {Alt_Navbar} from "./components/navbar";
-import Gövde from "./components/body"
+import Buttons from './components/buttons'
+import Footer from './components/footer'
+import Header from './components/header'
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      <Alt_Navbar/>
-      <Gövde/>
+      <Buttons/>
+      <Footer/>
+      <Header/>
       
     </div>
   );
